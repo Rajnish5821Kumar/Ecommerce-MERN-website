@@ -3,7 +3,7 @@ import { mainCarousalData } from './MainCaroselData'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css';
 
-const MainCrousal = () => {
+const MainCrosal = () => {
 
     const items = mainCarousalData.map((item)=> <img className='cursor-pointer' role='presentation' src={item.image} alt=""/>)
   return (
@@ -17,4 +17,4 @@ const MainCrousal = () => {
   )
 }
 
-export default MainCrousal
+export default MainCrosal
